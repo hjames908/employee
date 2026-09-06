@@ -1,0 +1,63 @@
+/* The popup form - hidden by default */
+.form-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #afdde5;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    border: 1px solid black;
+    box-shadow: 3px 3px 5px grey;
+}
+label {
+    color: black;
+    font-weight: bold;
+    width: 130px;
+    float: left;
+}
+.required:after {
+    content:" *";
+    color: red;
+}
+button {
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: #0fa4af;
+    color: white;
+    border-radius: 15px;
+    font: inherit;
+}
+body {
+    background-color:#F0EAD6;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+}
+h1 {
+    font-family: Georgia, serif;
+}
+table {
+    table-layout: fixed;
+    border-collapse: collapse; /*merges adjacent cell borders into a single border*/
+    border: 1px solid black;
+    width: 90%;
+    height: 300px;
+    margin-left:70px;
+}
+/* applies border to the table */
+table,th,td {
+    border: 1px solid black;
+}
+th,td {
+    padding: 15px;
+    border-bottom: 1px solid gray;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(odd) {background-color: #ccdde6;}
+
+tr:hover {
+    background-color: rgb(0, 162, 255);
+}
